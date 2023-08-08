@@ -5,3 +5,151 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root{
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+
+
+span{
+    align-self:flex-start ;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-end;
+    
+    
+}
+#menu-button{
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#menu-button-clonado{
+    align-self: flex-end;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    
+}
+#menu-button-clonado i{
+    font-size: 40px;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-botao{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    padding: 20px;
+    
+}
+.logo img{
+    margin-top: 7px;
+}
+ul{
+    list-style: none;
+    display: none;
+    z-index: 1;
+    color: var(--Medium-Gray);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.ul2{
+    align-self: center;
+}
+
+.ul2 li{
+    width: 200px;
+    text-align: center;
+    padding-top: 12px;
+    height: 45px;
+    background-color: transparent;
+    color: var(--Medium-Gray);
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+}
+
+.ul2 li:hover{
+    background-color: var(--Almost-White);
+    color: var(--Almost-Black);
+    border: 2px solid var(--Medium-Gray);
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    background-color: var(--Almost-White);
+}
+
+.section2{
+    grid-row: 1;
+    margin-block:30px;
+}
+.sec-imagem img{
+    width: 95vw;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1,p,button{
+    margin: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    font-size: 35px;
+}
+.learn-more{
+    width: 130px;
+    text-align: center;
+    height: 50px;
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+    border-radius: 15px;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.learn-more:hover{
+    background-color: var(--Almost-White);
+    color: var(--Almost-Black);
+    border: 2px solid var(--Almost-Black);
+}
+.imagens{
+    display: flex;
+    width: 100vw;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+
+}
+
