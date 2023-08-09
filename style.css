@@ -77,6 +77,30 @@ li{
     margin-bottom: 15px;
 }
 
+.ul1 li > img {
+    margin-left: 8px;
+}
+
+.menu-features{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.menu-features img{
+    margin-right: 6px;
+}
+
+.menu-company{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#arrow-up1, #arrow-up2{
+    display: none;
+}
+
 .ul2{
     align-self: center;
 }
