@@ -39,6 +39,19 @@ function menu() {
     botao.addEventListener('click', abrirFecharMenu);
 
     botaoClonado.addEventListener('click', abrirFecharMenu);
+
+    function desabilitarMenu(mediaQuery){
+        if (mediaQuery.matches){
+            botao.setAttribute('disabled', 'true');
+        } else{
+            botao.removeAttribute('disabled');
+        }
+    }
+
+    const mediaQuery700px = window.matchMedia('(min-width: 700px)');
+    desabilitarMenu(mediaQuery700px);
+
+    mediaQuery700px.addEventListener('change', desabilitarMenu);
 }
 
 menu();

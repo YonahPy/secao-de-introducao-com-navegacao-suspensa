@@ -179,11 +179,133 @@ h1{
 
 @media (min-width: 700px){
 
+    header{
+        padding-bottom: 40px;
+    }
 
+    nav{
+        display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
     ul{
         display: flex;
+        
     }
     #menu-button{
-        dis
+        display: none;
     }
+    .ul2{
+        align-self: flex-start;
+        margin-right: 4vw;
+    }
+    .ul2 li{
+        width: 110px;
+        
+    }
+    .logo-botao{
+        width: 90px;
+        align-self: flex-start;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .ul1{
+        align-self: flex-start;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .ul1 li {
+        margin-left: 12px;
+        padding: 0px;
+        
+    }
+    .logo{
+        
+        padding: 0px;
+    }
+    .logo img{
+        margin-top: 0px;
+    }
+    .menu-features{
+        margin-left: 0px;
+         
+    }
+
+    .menu-features li {
+        font-size: 11px;
+    }
+    .menu-features img{
+        margin-right: 5px;
+    }
+    .menu-company li{
+        font-size: 11px;
+    }
+    
+    .sec-imagem{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .sec-imagem img{
+        width: 85vw;
+    }
+      
+}
+@media (min-width: 768px){
+   
+   nav{
+        justify-content: space-around;
+   }
+   .ul1 li{
+        margin-right: 15px;
+   }
+   .menu-features li, .menu-company li{
+    font-size: 13px;
+   }
+   .sec-imagem img{
+    width: 80vw;
+}
+}
+@media (min-width: 900px){
+    .ul1 li{
+        margin-right: 25px;
+   }
+   .menu-features li, .menu-company li{
+    font-size: 15px;
+   }
+   main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 15px;
+    padding-inline: 10px;
+    
+   }
+   .sec-imagem img{
+    width: 50vw;
+    height: 50vh;
+    padding-right:25px ;
+    }
+    .imagens{
+        width: 40vw;
+    }
+    section{
+        height: 80vh
+    }
+    .section1{
+        
+        justify-content: space-evenly;
+    }
+    .section2{
+        grid-column: 2;
+        margin-block:0px;
+    }
+
+}
+@media (min-width: 1000px){
+    .sec-imagem img{
+        width: 50vw;
+        height: 60vh;
+        padding-right:50px ;
+}
 }
