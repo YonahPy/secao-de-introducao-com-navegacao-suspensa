@@ -177,3 +177,13 @@ h1{
 
 }
 
+@media (min-width: 700px){
+
+
+    ul{
+        display: flex;
+    }
+    #menu-button{
+        dis
+    }
+}

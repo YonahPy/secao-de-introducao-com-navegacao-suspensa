@@ -3,7 +3,7 @@ function menu() {
     const logoBotao = document.querySelector('.logo-botao');
     const menuBar = document.createElement('div');
     menuBar.classList.add('menu-bar');
-    menuBar.style.width = '50vw';
+    menuBar.style.width = '40vw';
     menuBar.style.height = '100vh';
     menuBar.style.backgroundColor = 'white';
     menuBar.style.position = 'fixed';
